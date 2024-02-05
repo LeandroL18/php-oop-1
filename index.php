@@ -9,5 +9,11 @@
             $this -> title = $title;
             $this -> director = $director;
         }
+
+        public function getInfo() {
+
+            return $this -> title . " - " . $this -> director ;
+        
+        }
     }
 ?>
